@@ -1,0 +1,34 @@
+body{
+	background-color: #F7F9F9;
+	margin: 5%;
+}
+
+h4{
+	font-family: 'Oswald';
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+#slate{
+	/*background-color: #22B7BE;*/
+	padding-bottom: 5px; 
+}
+
+a{
+	color: #000000;
+	border-bottom: 1px dotted;
+	border-bottom-color: #93B7BE;
+}
+
+#tag{
+	font-family: 'Lato';
+	font-weight: bold;
+	vertical-align: left;
+}
+
+#details{
+	font-family: 'Josefin Slab';
+	font-weight: 300;
+	vertical-align: right;
+}
