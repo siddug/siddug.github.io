@@ -11,6 +11,18 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Oswald:100,300,400' rel='stylesheet' type='text/css'>	
+	<script type="text/javascript">
+	var present = 0;
+	function mycode() {
+		var types = ["entreprenuer", "strategist", "collaborator", "writer", "enthusiastic programmer"];
+		$(".symbolic").fadeOut(function() {
+			present += 1;
+			present %= types.length;
+		  $(this).text(types[present]);
+		}).fadeIn();
+	}
+	setInterval(mycode, 2500);
+	</script>
 </head>
 <body>
 	<div class="row">
@@ -22,7 +34,7 @@
 		<div class="large-2 columns"></div>
 		<div class="large-10 columns" id="slate" ng-init="value = 'entreprenuer'" ng-controller="siteController as slate">
 			<p><h5>
-				I am a <span id="tag">{{value}}</span>. </br>
+				I am a <span id="tag" class="symbolic">{{value}}</span>. </br>
 				 Currently working at {{slate.details.work.name}} as {{slate.details.work.designation}}, I did {{slate.details.college.designation}} in {{slate.details.college.department}} at {{slate.details.college.name}}.
 				 </h5>
 			</p>
