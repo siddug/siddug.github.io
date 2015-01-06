@@ -3,8 +3,7 @@
 
 	app.controller('siteController', function(){
 		this.posts_content = posts;
-		this.details_left = slate_details_left;
-		this.details_right = slate_details_right;
+		this.details = slate_details;
 	});
 
 	var posts = 
@@ -21,43 +20,54 @@
 		},
 	];
 
-	var slate_details_left = 
-	[
-		{
-			tag		: 'Quant Analyst',
-			details 	: 'Goldman Sachs India',
-		},
-		{
-			tag		: 'B.Tech Computer Science',
-			details 	: 'IIT Bombay',
-		},
-		{
-			tag		: 'Email',
-			details : 'siddhartha(dot)gunti191(at)gmail(dot)com',
-		},
-		{
-			tag 	: 'Mobile',
-			details : '(+91) 8861986323',
-		}
-		
-	];
 
-	var slate_details_right = [
-		{
-			tag		: 'Blog',
-			details : 'blog.siddharthagunti.com',
-			link	: true,
-		},
-		{
-			tag 	: 'Git',
-			details : 'github.com/siddug',
-			link	: true,
-		},
-		{
-			tag		: 'Resume',
-			details : 'www.cse.iitb.ac.in/almuni/~siddu10/resume',
-			link	: true,
-		},
-	]; 
+	var slate_details = {
+		work 		: 
+					{
+						name		: 'Goldman Sachs',
+						designation : 'Senior Analyst',
+						tip			: 'Visit Goldman Sachs site at http://www.goldmansachs.com/',
+						link_value	: 'www.goldmansachs.com/',
+					},
+		college		:
+					{
+						name		: 'IIT Bombay',
+						designation : 'B.Tech',
+						department  : 'Computer Sci. & Engg.',
+						link_value  : 'www.cse.iit.ac.in',
+					},
+		blog 		:
+					{
+						link_value	: 'blog.siddharthagunti.com',
+					},
+		resume 		:
+					{
+						link_value 	: 'www.cse.iitb.ac.in/alumni/~siddu10/resume.pdf',
+					},
+		email 		:
+					{
+						id 			: 'siddhartha(dot)gunti191(at)gmail(dot)com',
+					},
+		linkedin    :
+					{
+						link_value 	: 'www.linkedin.com/pub/siddhartha-gunti/45/b62/474',
+					},
+		facebook 	:
+					{
+						link_value 	: 'www.facebook.com/siddu.g',
+					},
+		mobile 		:
+					{
+						number 		: '(+91) 8861986323',
+					},
+		git 		:
+					{
+						link_value	: 'www.github.com/siddug',
+					},
+		read 		:
+					{
+						link_value  : 'www.goodreads.com/siddug',
+					},
+	}
 
 })();

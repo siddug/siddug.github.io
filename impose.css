@@ -1,6 +1,7 @@
 body{
 	background-color: #F7F9F9;
 	margin: 5%;
+	font-family: 'Open Sans';
 }
 
 h4{
@@ -10,25 +11,38 @@ h4{
 	letter-spacing: 3px;
 }
 
+#title{
+	padding: 5px; 
+	border-color: #93B7BE;
+	border: solid 1px;
+}
+
 #slate{
 	/*background-color: #22B7BE;*/
-	padding-bottom: 5px; 
+	 
+	border: solid 1px #000000;
+	padding: 5%;
 }
 
-a{
-	color: #000000;
-	border-bottom: 1px dotted;
-	border-bottom-color: #93B7BE;
-}
 
-#tag{
+#tag, a.link{
 	font-family: 'Lato';
 	font-weight: bold;
-	vertical-align: left;
+	background-color: #93B7BE;
+	color: #F7F9F9;
+}
+
+a.link{
+	border-bottom: #F7F9F9 1px dotted;
+}
+
+a.link:hover{
+	background-color: #F7F9F9;
+	color: #93B7BE;
+	border-bottom: #93B7BE 1px dotted;
 }
 
 #details{
-	font-family: 'Josefin Slab';
-	font-weight: 300;
-	vertical-align: right;
+	font-family: 'Open Sans';
+	font-weight: 100;
 }

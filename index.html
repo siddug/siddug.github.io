@@ -4,9 +4,7 @@
 	<script type="text/javascript" src="angular.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 	<script type="text/javascript" src="modernizr.js"></script>
-	<script type="text/javascript">
-		$('.single-item').slick();
-	</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="foundation.css">
 	<link rel="stylesheet" type="text/css" href="impose.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
@@ -16,23 +14,49 @@
 </head>
 <body>
 	<div class="row">
-		<div class="large-12 columns">
+		<div class="large-2 columns end" id="title">
 			<h4>Siddhartha Gunti</h4>
 		</div>
 	</div>
-	<div class="row" id = "slate" ng-controller="siteController as slate">
+	<div class="row">
+		<div class="large-2 columns"></div>
+		<div class="large-10 columns" id="slate" ng-init="value = 'entreprenuer'" ng-controller="siteController as slate">
+			<p><h5>
+				I am a <span id="tag">{{value}}</span>. </br>
+				 Currently working at {{slate.details.work.name}} as {{slate.details.work.designation}}, I did {{slate.details.college.designation}} in {{slate.details.college.department}} at {{slate.details.college.name}}.
+				 </h5>
+			</p>
+			<p>
+				<h5>
+				I <a ng-href="http://{{slate.details.blog.link_value}}" class="link">blog</a>, <a ng-href="http://{{slate.details.git.link_value}}" class="link">code</a> and <a ng-href="http://{{slate.details.read.link_value}}" class="link">read</a>. My recent project was .... More at...
+				</h5>
+			</p>
+			<p>
+				<h5>
+				I experiment and update my <a ng-href="http://{{slate.details.resume.link_value}}" class="link">resume</a> and <a ng-href="http://{{slate.details.linkedin.link_value}}" class="link">LinkedIn</a> profile. 
+				</h5>
+			</p>
+			<p>
+				<h5>
+					I respond to <span id="tag">{{slate.details.email.id}}</span>,  and <span id="tag">{{slate.details.mobile.number}}</span>.
+				</h5>
+			</p>
+		</div>
+	</div>
+</br></br></br></br></br></br>
+	<div class="row" ng-controller="siteController as slate">
       	<div class="large-6 columns">
       		<div ng-repeat="detail in slate.details_left">
 	      		<span id="tag">{{detail.tag}}</span>
 	      		<span id="details" ng-hide={{detail.link}}>{{detail.details}}</span>
-	      		<span id="details" ng-show={{detail.link}}><a ng-href="http://{{detail.details}}">{{detail.details}}</a></span>
+	      		<span id="details" ng-show={{detail.link}}><a ng-href="http://{{detail.details}}">{{detail.details | limitTo: 50}}</a></span>
       		</div>
       	</div>
-      	<div class="large-6 columns" >
+      	<div class="large-6 columns end" >
       		<div ng-repeat="detail in slate.details_right">
 	      		<span id="tag">{{detail.tag}}</span>
 	      		<span id="details" ng-hide={{detail.link}}>{{detail.details}}</span>
-	      		<span id="details" ng-show={{detail.link}}><a ng-href="http://{{detail.details}}">{{detail.details}}</a></span>
+	      		<span id="details" ng-show={{detail.link}}><a ng-href="http://{{detail.details}}">{{detail.details | limitTo: 50}}</a></span>
       		</div>
       	</div>
     </div>
