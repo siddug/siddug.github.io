@@ -20,7 +20,7 @@ We will see how to save and read the data in an Android application. To start of
 
 1. SQLiteOpenHelper
 
-{% highlight java linenos %}
+``` java
 public class dbManager extends SQLiteOpenHelper{
   
 	 //Database name
@@ -46,6 +46,6 @@ public class dbManager extends SQLiteOpenHelper{
 	  
 	}
 } 
-{% endhighlight %}
 
+```
 
