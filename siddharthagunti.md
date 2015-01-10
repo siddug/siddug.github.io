@@ -11,7 +11,7 @@ I like programming and the challenges involved in designing algorithms. I keep m
 
 You can find details about what I have worked on recently at <a href="{{site.url}}/featured">Featured posts</a> section. Or browse through them categorically at <a href="{{site.url}}/categories"> Categories </a> section.
 
-Apart from Coding, I like to read/write novels, cook, blog and randomly solve new probability and math puzzles. You can find some of them in this blog.
+Apart from Coding, I like to read/write novels, cook, blog and randomly solve probability and math puzzles. You can find some of them in this blog.
 
 Feel free to use below links to contact me for any info/comment:
 
