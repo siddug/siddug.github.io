@@ -1,46 +1,24 @@
 ---
 layout: page
 permalink: /siddharthagunti/index.html
-title: Hi
+title: Give an ACK
 tags: [siddhartha, gunti]
-image:
-  feature: siddu.jpg
 ---
 
-  <img src="{{ site.url }}/images/siddu.jpg" alt="Siddhartha Gunti"/>
+My name is **Siddhartha Gunti**, and this is my personal blog.
+
+I like programming and the challenges involved in designing algorithms. I keep myself engaged with a project, learning new language/feature/api. 
+
+You can find details about what I worked on recently at <a href="{{site.url}}/featured">Featured posts</a> section. Or browse through them categorically at <a href="{{site.url}}/categories"> Categories </a> section.
+
+Apart from Coding, I like to read/write novels, cook, blog and randomly solve new probability and math puzzles. You can find some of them in this blog (not the cokking stuff but others').
+
+Feel free to use below links to contact me for any info/comment:
+
+* <a href="http://github.com/{{site.owner.github}}">Git</a>
+* <a href="http://www.cse.iitb.ac.in/alumni/~siddu10/resume.pdf">Resume</a>
+* <a href="mailto:{{ site.owner.email }}" class="author-website">{{ site.owner.email }}</a>
+* <a href="http://thevoidstory.blogspot.com">Previous Blog</a>
 
 
-My name is **Siddhartha Gunti**, and this is my personal blog.  
-
->Entrepreneur
->
->Designer
->
->Engineer
->
->Inventor
-
-I
-make
-stuff.
-
-
-*Beautiful, practical, meaningful stuff.*
-
-
-I make what I love.
-
-*I love what I do.*
-
-
-> For
->
-> the makers,
-> 
-> the creators,
-> 
-> the discoverers,
-> 
-> the original thinkers,
-> 
-> ### *This is the space to create.* ###
+Happy coding and blogging :)
