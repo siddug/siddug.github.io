@@ -352,7 +352,7 @@ html, body, .summer-post-container, .summer-post-header {
     .summer-author-info .summer-post-author .summer-post-author-avatar {
       width: 12.5rem;
       height: 12.5rem;
-      border-radius: 50%;
+      border-radius: 5%;
       float: none;
       margin-right: 0;
       margin-bottom: 1.25rem; }

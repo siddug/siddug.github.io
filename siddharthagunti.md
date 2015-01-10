@@ -7,7 +7,7 @@ image:
   feature: siddu.jpg
 ---
 
-  <!--img src="{{ site.url }}/images/siddu.jpg" alt="Hossain Mohammad Faysal"-->
+  <img src="{{ site.url }}/images/siddu.jpg" alt="Siddhartha Gunti"/>
 
 
 My name is **Siddhartha Gunti**, and this is my personal blog.  
