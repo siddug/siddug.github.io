@@ -42,7 +42,7 @@ We set out to get the below information about the user.
 7. Interests
 8. Any additional info
 
-I will explain briefly how we solved these sub problems and what additional information we got in the final app. Links to the project and problem statement can be found at the end of the post.
+I will explain briefly how we solved these sub problems and what additional information we got in the final app. 
 
 * ### Associated email address
 
