@@ -25,7 +25,7 @@ What if you know your app is used by a guy or you know he loves sports? or who h
 
 </div>
 
-> In the recent hackathon or rather hikeAthon conducted by hike, I solved a part of this problem. Get as much information about the user as you can from an app without asking him to provide it. My team won <span id="tag">third position </span> in the comeptiion. Below are the resource links. Feel free to use them and contact me for any other info.
+> In the recent hackathon or rather hikeAthon conducted by hike, I solved a part of this problem. "Get as much information about the user as you can from an app without asking him to provide it". My team won <span id="tag">third position </span> in the comeptiion. Below are the resource links. Feel free to use them and contact me for any other info.
 
 * <a href="https://github.com/siddug/android-user-info">Git</a> - project link.
 * <a href="http://hikeathon.hackerrank.com/">HikeAthon</a> - Hackathon results.
@@ -46,18 +46,18 @@ I will explain briefly how we solved these sub problems and what additional info
 
 * ### Associated email address
 
-There is an easy way to get users registered email address with the mobile (Requires READ_Accounts permission). This is the first and easy step to know user's email address.
+There is an easy way to get users registered email address with the mobile (Requires READ_Accounts permission). This was our first and generally easy step to know user's email address.
 
 * ### Age group - Gender - BirthDate - Relationship status
 
 	1. ##### Failed trials: 
-		My first intention was to get user specific data without any social oauth. I tried using facebook's graph search link and google search results to find out gender of the user. But scraped the idea since it wont provide with other basic user info.
+		My first intention was to get user specific data without any social oauth. I tried using facebook's graph search link and google search results to find out gender of the user. But we scraped the idea since it wont provide us with additional user info.
 
 	2. ##### Succeess version:
-		We decided to proceed with getting social Oauth from user and use as much publicly visible info as possible. Two options here was to go with 
+		We decided to proceed with proper login from user and use as much publicly visible info as possible. Two options here was to go with,
 
 		1. *Facebook* : Using facebook login turned out to be the hardest part of the entire project but we kept pushing since we hoped we can get 'interests' of the user at the end.
-		2. *Google* : At the end, since this was consuming a lot of time, we didn't have any other option but to rely on Google Oauth. and trust me, using Google Scopes is damn easy.
+		2. *Google* : At the end, since FB login inclusion was consuming a lot of time, we didn't have any other option but to rely on Google Oauth. and trust me, using Google Scopes is damn easy.
 		 
 Finally using Google Plus Scope, we are able to get 
 
@@ -77,15 +77,15 @@ For favorite apps, though we tried to get number of times an app is opened, clos
 1. Whatsapp, though used a lot by users, consumed very little data
 2. Apps like facebook consume a lot on the other hand
 3. Launcher apps or some utlity apps consume a lot of data (should we put these in fav category or not?)
-4. Google play services comes first in sent and recieving ranking (Obviously we didnt want to give Google Play sa favorite app.)
+4. Google play services comes first in sent and recieving ranking (Obviously we didnt want to list Google Play as favorite app.)
 
 (*Please note that these are my individual observations from the test data I received from my test devices)
 
-To resolve this, we gave the ranking scheme to apps which both send and recieve decent amount of data and excluded considering apps with 'google' in its name as a favorite app.
+To resolve this, we gave the ranking scheme to apps which both send and recieve decent amount of data and excluded apps with 'google' in its name for consideration.
 
 * ### Movement status
 
-This is an interesting find. I used accelerometer and gyro sensors previosuly for my other Andriod projects but they introduced *STEP* sensors from KITKAT. Using these sensors you can retrive number of steps taken by the user. Once you have this info, it is a matter of adjusting the bounds for jogging, walking and running.
+This is an interesting find. I used accelerometer and gyro sensors previosuly for my other Andriod projects and I thought to make use of that to detect movement. But we found they introduced *STEP* sensors from KITKAT. Using these sensors you can retrive number of steps taken by the user. Once you have this info, it is a matter of adjusting the bounds for jogging, walking and running.
 
 * ### Transit status
 
@@ -93,13 +93,13 @@ This is no brainer. Get the location of user form GPS/Internet with some delay. 
 
 * ### Interests
 
-The trails with FB API failed us from retrieving user interests. WE expected to predict user interest from the apps he installed on the phone. But non-rooting and base data unavailability made us scrap that idea. 
+The trails with FB API failed us from retrieving user interests. We expected to predict user interest from the apps he installed on the phone. But non-rooting and base data unavailability made us scrap that idea. 
 
-What more can we learn form the user? Browser history. Each site has a title and many sites has the site information or tags in the title itself. (Like a number of sports sites have cricket/sports in their title) Using this info and ranking the words, we presented top ten sites user visited and top ten title words (the words from the titles of sites he visits).
+What more can we learn form the user? Browser history. Each site has a title and many sites has the site information or tags in the title itself. (Ex: many sports sites have cricket/sports in their title) Using this info and ranking the words, we presented top ten sites user visited and top ten title words (the words from the titles of sites he visits).
 
 <hr>
 
-That completed our project and the hack and won us the third position in the competition. 
+That completed our project and the hack and won us the third position in the competition. What next? May be predicting the mood of the user? Ping me if you have any ideas on this.
 
 Happy coding :)
 
