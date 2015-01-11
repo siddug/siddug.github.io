@@ -6,8 +6,8 @@ headline: Storing and Retrieving Data in an Android app is easy. easier if you k
 modified: 2013-03-09				# Date
 category: Tutorial
 tags: [Android, Java, SQL]
-image: 
-  feature: 
+imagefeature: http://i1117.photobucket.com/albums/k591/codesiddu/DeathtoStock_Wired6_zps0e0c9a71.jpg
+imageexternal: true
 comments: true
 share: true
 mathjax:

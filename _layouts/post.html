@@ -14,11 +14,9 @@
             
             <div class="summer-post-menu-header">
                 
-                    <a class="summer-blog-logo" href="{{ site.url }}">
+                    <a class="summer-blog-logo" href="{{ site.url }}/">
                         <img src="{{ site.url }}/images/{{ site.logo }}" alt="Blog Logo" />
                     </a>
-                
-                
                 
                 <div class="summer-blog-menu">      
     <div class="summer-mobile-menu show-for-small">
@@ -47,7 +45,11 @@
             <div class="bg-img"></div>
         </header>
         <button class="trigger bg-check" data-info="Read more"><span>Trigger</span></button>
-        {% if page.imagefeature %}<img src="{{ site.url }}/images/{{ page.imagefeature }}" alt="cover-image" />{% endif %}
+        {% if page.imageexternal %}
+            {% if page.imagefeature %}<img src="{{ page.imagefeature }}" alt="cover-image" />{% endif %}
+        {% else %}
+            {% if page.imagefeature %}<img src="{{site.url}}/images/{{ page.imagefeature }}" alt="cover-image" />{% endif %}
+        {% endif %}
         <article class="summer-post-content post">
             <div>{{ content }}
             </div>
