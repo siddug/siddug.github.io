@@ -11,7 +11,7 @@ imageexternal: true
 comments: true
 share: true
 mathjax:
-featured: true
+featured: false
 published: true
 ---
 
