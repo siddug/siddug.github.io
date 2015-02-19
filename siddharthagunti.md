@@ -15,7 +15,7 @@ Apart from Coding, I like to read/write novels, cook, blog and randomly solve pr
 
 Feel free to use below links to contact me for any info/comment:
 
-* <a href="http://www.cse.iitb.ac.in/alumni/~siddu10/resume.pdf">Resume</a>
+* <a href="http://www.siddharthagunti.com/files/resume.pdf">Resume</a>
 * <a href="https://www.linkedin.com/in/siddharthagunti">LinkedIn</a>
 * <a href="mailto:{{ site.owner.email }}" class="author-website">{{ site.owner.email }}</a>
 * <a href="http://github.com/{{site.owner.github}}">Git</a>
