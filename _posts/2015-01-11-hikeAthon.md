@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "hikeAthon - User analysis Android hack"					# Title of the post
+title: "HikeAthon - User analysis Android hack"					# Title of the post
 description: Android project details to analyze user		# Description of the post, used for Facebook Opengraph & Twitter
 headline: Android project to user analysis				# Will appear in bold letters on top of the post
 modified: 2015-01-11				# Date
