@@ -5,7 +5,7 @@ description: Step 0 of entrepreneurship
 headline: Resource list of useful videos and articles that I found helpful
 modified: ""
 categories: null
-tags: "Personal,Entrepreneur"
+tags: [Personal,Entrepreneur]
 imagefeature: "http://i1117.photobucket.com/albums/k591/codesiddu/DeathtoStock_Wired3_zps8d91db12.jpg"
 mathjax: false
 featured: true
