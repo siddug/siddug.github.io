@@ -18,7 +18,7 @@ featured: true
 How hard is it for a programmer to become an entrepreneur. Actually not much. But how hard is it to be an excellent one? Apparently a lot. In the process of pushing myself to be the next better me, I found some interesting points that blocked me from being experimental and entrepreneurial at times. Here’s my handbook list on five major pain points and how I fixed them. 
 
 ## Develop systems with less features
-How many times did you build a system with features that are never used? If you developed a login system with a powerful backend, sure it deserves a slow mo clap but from the end user view (who just wants to click on one button) it doesn't matter.
+How many times did you build a system with features that are never used? If you developed a powerful system, sure it deserves a slow mo clap but from the end user view (who just wants to click on one button or maybe even not that) it doesn't matter.
 
 **Personal example:** I built a keyboard app with a very good system and awesome set of features. The idea is lost in wheel of time since I was never happy enough to ship it. There was always that next set of features that should be in the build. 
 
