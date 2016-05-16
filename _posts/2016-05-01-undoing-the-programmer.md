@@ -47,5 +47,5 @@ This is pretty straightforward from time-graph analysis. But worth mentioning se
 I remember my friend mentioning that one needs 10000 hours to work in one domain to become a pro in it. Roughly translates to 3-5 years depending on how much time/day you are working on it. Kinda makes sense. But for a product development, you don't have 3-5 years of research time. So mimic this with available resources. If you want to implement a chat system. List down the primary set of features that you need without future proofing. Use a third party client and collect data points. Experiment as much as possible and let your user’s tell you what exactly they need. Now you have the power of data (to mimic the knowledge of 10000 hours) to build a standalone system.
 
 
-##End note
+## End note
 So that's my learning. What about you? Would love to discuss more on this. Here's to fun product experiments. Cheers.
