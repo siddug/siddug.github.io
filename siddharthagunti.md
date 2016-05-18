@@ -5,20 +5,12 @@ title: Give an ACK
 tags: [siddhartha, gunti]
 ---
 
-My name is **Siddhartha Gunti**, and this is my personal blog.
+**Image &#183; Design &#183; Develop** - Something I love to do (and get paid for!). Currently working [@Headout_App](https://twitter.com/Headout_App) on product. Developed [Headout's iOS app](https://itunes.apple.com/in/app/headout/id899327000?mt=8) from scratch last December. Now working on revamping the mobile web app. Previously at Goldman and [@PaxPlay](https://twitter.com/PaxPlay). Current pet project - [EarlyDo](http://earlydo.com/).
 
-I like programming and the challenges involved in designing algorithms. I keep myself engaged with a project, learning new languages/features/api. 
+Always up for a good conversation about anything product and startup. Feel free to ping me. Lets catch up over some coffee/beer.
 
-You can find details about what I have worked on recently at <a href="{{site.url}}/featured">Featured posts</a> section. Or browse through them categorically at <a href="{{site.url}}/categories"> Categories </a> section.
-
-Apart from Coding, I like to read/write novels, cook, blog and randomly solve probability and math puzzles. You can find some of them in this blog.
-
-Feel free to use below links to contact me for any info/comment:
+Some typical contact stuff: 
 
 * <a href="http://www.siddharthagunti.com/files/resume.pdf">Resume</a>
 * <a href="https://www.linkedin.com/in/siddharthagunti">LinkedIn</a>
 * <a href="mailto:{{ site.owner.email }}" class="author-website">{{ site.owner.email }}</a>
-* <a href="http://github.com/{{site.owner.github}}">Git</a>
-* <a href="http://thevoidstory.blogspot.com">Previous Blog</a>
-
-Happy coding and blogging :)
