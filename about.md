@@ -10,6 +10,6 @@ Always up for a good conversation about anything product and startup. Feel free 
 
 Some typical contact stuff:
 
-* <a href="http://www.siddharthagunti.com/files/resume.pdf">Resume</a>
+* <a href="http://www.siddharthagunti.com/assets/files/resume.pdf">Resume</a>
 * <a href="https://www.linkedin.com/in/siddharthagunti">LinkedIn</a>
 * <a href="mailto:siddhartha.gunti191@gmail.com" class="author-website">siddharthagunti.com</a>
